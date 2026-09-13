@@ -1,7 +1,7 @@
 # 编译产物
 build/
-*.apk
-*.idsig
+# *.apk
+# *.idsig
 *.apk.idsig
 
 # 本地探测 jar（含运行时环境，不入库）
