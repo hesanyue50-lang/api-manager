@@ -40,7 +40,10 @@ Android 应用 + 桌面小组件，一站式管理各家 AI 平台的 API 余额
 2. 手机允许「安装未知来源应用」
 3. 安装后打开，按提示添加桌面小组件
 
-## 构建
+<details>
+<summary><strong>开发者详阅</strong>（点击展开）</summary>
+
+### 构建
 
 ```bash
 sh build.sh
@@ -48,11 +51,13 @@ sh build.sh
 
 产出 `com.minis.balancewidget.apk`。
 
-## 隐私
+### 隐私
 
 - API Key 仅存本机，不上传
 - 只向各平台官方接口发送查询请求
 - 不调用任何 AI 接口，不消耗 token
+
+</details>
 
 ## 现状
 
